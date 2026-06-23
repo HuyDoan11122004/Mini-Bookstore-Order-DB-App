@@ -1,20 +1,34 @@
-\# PHP Lab05 - Mini Bookstore Order DB App
+\## Test Checklist
 
 
 
-Student: Đoàn Nguyễn Minh Huy  
+\- TC01: GET /health
 
-MSSV: 22110073
+\- TC02: GET /prospects
 
+\- TC03: Create prospect valid
 
+\- TC04: Required validation
 
-This project implements Lab05 with PHP, PDO, Repository Pattern, CRUD, search, pagination, safe sort, unique constraints, duplicate handling, PRG pattern, 404/405/500 error pages and database health check.
+\- TC05: Duplicate prospect email
 
+\- TC06: Edit prospect
 
+\- TC07: Update prospect
 
-Modules:
+\- TC08: Delete prospect by POST
 
-\- Prospects
+\- TC09: GET /book-orders
 
-\- Book Orders
+\- TC10: Duplicate book order code
+
+\- TC11: 404 Not Found
+
+\- TC12: 405 Method Not Allowed
+
+\- TC13: Safe sort whitelist
+
+\- TC14: Page bounds
+
+\- TC15: Production safe DB error
 
