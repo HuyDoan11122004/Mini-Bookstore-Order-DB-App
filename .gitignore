@@ -1,0 +1,9 @@
+reports/
+docs/
+screenshots/
+*.docx
+*.pdf
+
+.php-server.pid
+storage/logs/*.log
+!storage/logs/.gitkeep
